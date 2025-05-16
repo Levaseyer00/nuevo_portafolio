@@ -3,13 +3,8 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      mensaje: "¡Hola! Bienvenido a mi portafolio",
-      descripcion: "Soy desarrollador frontend y uso Vue.js"
+      mensaje: "¡Bienvenido a mi portafolio!"
     };
-  },
-  methods: {
-    cambiarMensaje() {
-      this.mensaje = "¡Gracias por visitar!";
-    }
+    
   }
 }).mount("#app");
